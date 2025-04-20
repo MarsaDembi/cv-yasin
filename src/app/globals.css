@@ -1,0 +1,37 @@
+/* Import font terlebih dahulu */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap');
+
+/* Import Tailwind CSS */
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "tailwindcss";
+
+/* globals.css */
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 47.4% 11.2%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 47.4% 11.2%;
+  --primary: 174 100% 29%;
+  --primary-foreground: 210 40% 98%;
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+}
+
+.dark {
+  --background: 222.2 47.4% 4.2%;
+  --foreground: 210 40% 98%;
+  --card: 222.2 47.4% 4.2%;
+  --card-foreground: 210 40% 98%;
+  --primary: 174 100% 40%;
+  --primary-foreground: 210 40% 98%;
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: 'Poppins', sans-serif; /* Pastikan font digunakan di sini */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

@@ -1,0 +1,19 @@
+{
+  "comments": [
+    {
+      "name": "marsa",
+      "email": "marsadembi@gmail.com",
+      "message": "greatttt!!!!",
+      "rating": 5,
+      "createdAt": "2025-04-10T13:37:21.363Z"
+    },
+    {
+      "name": "sa",
+      "email": "marsadembi@gmail.com",
+      "message": "greattt browww",
+      "rating": 4,
+      "createdAt": "2025-04-10T14:33:47.127Z"
+    }
+  ],
+  "ratings": []
+}
